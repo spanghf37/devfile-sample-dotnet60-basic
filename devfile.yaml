@@ -50,7 +50,7 @@ components:
       deployment/cpuRequest: 10m
       deployment/memoryLimit: 300Mi
       deployment/memoryRequest: 100Mi
-      deployment/container-port: 8081
+      deployment/container-port: 8085
     kubernetes:
       uri: kubernetes/deployment.yaml
   - name: outerloop-service
@@ -60,7 +60,7 @@ components:
       deployment/cpuRequest: 10m
       deployment/memoryLimit: 200Mi
       deployment/memoryRequest: 100Mi
-      deployment/container-port: 8081
+      deployment/container-port: 8085
     kubernetes:
       uri: kubernetes/service.yaml
 commands:
