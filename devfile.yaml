@@ -45,7 +45,7 @@ components:
         rootRequired: false
   - name: outerloop-deploy
     attributes:
-      deployment/replicas: 1
+      deployment/replicas: 3
       deployment/cpuLimit: "100m"
       deployment/cpuRequest: 10m
       deployment/memoryLimit: 300Mi
